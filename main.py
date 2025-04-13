@@ -36,8 +36,8 @@ class App(tk.Tk):
 
         self.eraser = False
 
-        self.mouseX: float = 0
-        self.mouseY: float = 0
+        self.mouseX = 0
+        self.mouseY = 0
 
         self.init()
 
